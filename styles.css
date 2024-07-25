@@ -87,7 +87,10 @@ body {
 
 .reset-button {
     height: 40px;
-    width: 80px;
+    width: 100px;
+    border-radius: 12px;
+    color: darkred;
+    background: lightyellow;
 }
 
 .reset-button:hover {
