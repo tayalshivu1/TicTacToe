@@ -10,7 +10,6 @@
     <div class="header">
         <h1 class="title">TIC TAC TOE!</h1>
         <p>Tap on the boxes to start play</p>
-        <p>click on reset button below to restart the game</p>
     </div>
     <div class="matrix" onclick="handleClick(event)">
         <div class="row">
@@ -31,7 +30,12 @@
     </div>
     <div class="winner"></div>
     <div class="reset">
-        <input type="button" onclick="reset()" value="RESET" class="reset-button"/>
+        <p>click on reset button below to restart the game</p>
+        <div class="reset-button-wrapper">
+            <span>>>>>></span>
+            <input type="button" onclick="reset()" value="RESET" class="reset-button"/>
+            <span><<<<<</span>
+        </div>
     </div>
     <script src="app.js"></script>
 </body>
